@@ -1,0 +1,17 @@
+[
+  {
+    "ho_ten": "Nguyễn An",
+    "tuoi": 30,
+    "gioi_tinh": "Nam",
+    "dia_chi": "Hà Nội",
+    "loai": "CanBo"
+  },
+  {
+    "ho_ten": "Trần Bình",
+    "tuoi": 25,
+    "gioi_tinh": "Nam",
+    "dia_chi": "TP.HCM",
+    "loai": "CongNhan",
+    "bac": 5
+  }
+]
