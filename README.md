@@ -5,6 +5,7 @@ Một tựa game chiến thuật Battleship được phát triển bằng Python
 Chế độ EasyAI(chế độ dễ-bắn ngẫu nhiên) và HardAI(chế độ khó-bắn truy sát)
 Giao diện đồ họa và hiệu ứng âm thanh đầy đủ.
 Tự động lưu trữ lịch sử trận đấu.
+
 🚀 🎶Hướng dẫn cài đặt
 Yêu cầu hệ thống cài đặt Python 3.12.
 Cài đặt thư viện: pip install pygame
