@@ -111,7 +111,6 @@ def place_random_ships(board: Board):
                 board.add_ship(Ship(size, positions))
                 placed = True
 
-# --- EFFECT: PARTICLE SYSTEM ---
 class Particle:
     def __init__(self, x, y):
         self.x = x
@@ -191,7 +190,6 @@ def save_match_history(is_human_win):
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# --- TẢI ÂM THANH (Đã cập nhật nhạc nền mới) ---
 music_file = os.path.join(BASE_DIR, "They Sold Their Souls - Bonnie Grace.mp3")
 if not os.path.exists(music_file):
     music_file = os.path.join(BASE_DIR, "assets", "They Sold Their Souls - Bonnie Grace.mp3")
@@ -257,7 +255,6 @@ COLOR_HOLE_CORE = (10, 10, 12)
 CELL_SIZE = int(SCREEN_HEIGHT * 0.052) 
 GRID_SIZE_PX = 10 * CELL_SIZE
 
-# --- TẢI HÌNH ẢNH TÀU CHIẾN ---
 def load_ship_images():
     images = {}
     ship_files = {2: "1x2.png", 3: "1x3.png", 4: "1x4.png", 5: "1x5.png", "2x2": "2x2.png"}
@@ -285,7 +282,6 @@ def load_ship_images():
 
 SHIP_IMAGES = load_ship_images()
 
-# --- TẢI HÌNH NỀN BIỂN VÀ AVATAR ---
 def load_custom_assets():
     assets = {"water": None, "human_avatar": None, "ai_avatar": None}
     
